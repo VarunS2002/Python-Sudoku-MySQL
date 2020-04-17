@@ -4,12 +4,62 @@ import random
 import webbrowser
 import mysql.connector as sql
 
+# Default Connection Properties
+
+localhost = "localhost"
+username = "root"
+password = ""
+
+
+# Connection Properties Function
+
+def connect():
+    global localhost
+    global username
+    global password
+    if len(e_host.get()) != 0:
+        localhost = e_host.get()
+    if len(e_username.get()) != 0:
+        username = e_username.get()
+    if len(e_password.get()) != 0:
+        password = e_password.get()
+    db_win.destroy()
+
+
+# Connection Properties Window
+
+db_win = Tk()
+db_win.title("Connect to MySQL")
+db_win.resizable(False, False)
+db_win.geometry('330x120')
+
+l_default = Label(db_win, text="Directly press Connect to use default values", anchor="center")
+l_host = Label(db_win, text="Enter Host(default is localhost):", anchor="w")
+l_username = Label(db_win, text="Enter Username(default is root):", anchor="w")
+l_password = Label(db_win, text="Enter Password(default is *blank*):", anchor="w")
+e_host = Entry(db_win)
+e_username = Entry(db_win)
+e_password = Entry(db_win)
+b_submit = Button(db_win, text="Connect", command=connect)
+
+l_default.grid(row=0, column=0, columnspan=2)
+l_host.grid(row=1, column=0, sticky=N + S + E + W)
+e_host.grid(row=1, column=1, sticky=N + S + E + W)
+l_username.grid(row=2, column=0, sticky=N + S + E + W)
+e_username.grid(row=2, column=1, sticky=N + S + E + W)
+l_password.grid(row=3, column=0, sticky=N + S + E + W)
+e_password.grid(row=3, column=1, sticky=N + S + E + W)
+b_submit.grid(row=4, column=1, sticky=N + S + E + W)
+
+db_win.protocol('WM_DELETE_WINDOW', quit)
+db_win.mainloop()
+
 # Database Connection
 
 my_db = sql.connect(
-    host="localhost",
-    user="root",
-    passwd="varun"
+    host=f"{localhost}",
+    user=f"{username}",
+    passwd=f"{password}"
 )
 c = my_db.cursor()
 c.execute("use sudoku")
@@ -284,6 +334,7 @@ file.add_separator()
 file.add_command(label="About", command=about)
 file.add_command(label="Quit", command=close)
 menubar.add_cascade(label="Menu", menu=file)
+
 root.config(menu=menubar)
 root.protocol('WM_DELETE_WINDOW', close)
 
