@@ -6,17 +6,17 @@ This is a fully fledged sudoku game written in Python using Tkinter GUI and uses
 
 Usage:
 
--Run the query.sql script atleast once before running the sudoku program 
+-Run the query sql script atleast once before running the sudoku program 
 
 -Enter the properties for MySQL connection and press Connect
 
 Note:
 
--The query.sql script has 3 games defined by default which are soft coded in the Sudoku program
+-The query sql script has 3 games defined by default which are soft coded in the Sudoku program
 
 -To add more games you will need to add them in the database
 
--You can use the Insert Game tool provided to do that
+-You can use the insert games tool provided to do that
 
 -Increase the value of the gno column by 1 everytime you add a new game manually
 
