@@ -4,9 +4,13 @@
 
 This is a fully fledged sudoku game written in Python using Tkinter GUI and uses MySQL database for data
 
-Note:
+Usage:
 
 -Run the query.sql script atleast once before running the Sudoku program 
+
+-Enter the properties for MySQL connection and press Connect
+
+Note:
 
 -The query.sql script has 3 games defined by default which are soft coded in the Sudoku program
 
