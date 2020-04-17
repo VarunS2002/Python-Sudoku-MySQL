@@ -6,7 +6,7 @@ This is a fully fledged sudoku game written in Python using Tkinter GUI and uses
 
 Usage:
 
--Run the query.sql script atleast once before running the Sudoku program 
+-Run the query.sql script atleast once before running the sudoku program 
 
 -Enter the properties for MySQL connection and press Connect
 
