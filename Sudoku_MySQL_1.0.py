@@ -33,7 +33,7 @@ db_win.title("Connect to MySQL")
 db_win.resizable(False, False)
 db_win.geometry('330x120')
 
-l_default = Label(db_win, text="Directly press Connect to use default values", anchor="center")
+l_default = Label(db_win, text="Leave any box empty to use default values", anchor="center")
 l_host = Label(db_win, text="Enter Host(default is localhost):", anchor="w")
 l_username = Label(db_win, text="Enter Username(default is root):", anchor="w")
 l_password = Label(db_win, text="Enter Password(default is *blank*):", anchor="w")
