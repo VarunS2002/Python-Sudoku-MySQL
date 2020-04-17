@@ -13,39 +13,6 @@ create table start
                    col57 int,col58 int,col59 int,col60 int,col61 int,col62 int,col63 int,col64 int,
                    col65 int,col66 int,col67 int,col68 int,col69 int,col70 int,col71 int,col72 int,
                    col73 int,col74 int,col75 int,col76 int,col77 int,col78 int,col79 int,col80 int);
-insert into start values
-					(1,
-					0, 7, 5, 0, 9, 0, 0, 0, 6,
-					0, 2, 3, 0, 8, 0, 0, 4, 0,
-					8, 0, 0, 0, 0, 3, 0, 0, 1,
-					5, 0, 0, 7, 0, 2, 0, 0, 0,
-					0, 4, 0, 8, 0, 6, 0, 2, 0,
-					0, 0, 0, 9, 0, 1, 0, 0, 3,
-					9, 0, 0, 4, 0, 0, 0, 0, 7,
-					0, 6, 0, 0, 7, 0, 5, 8, 0,
-					7, 0, 0, 0, 1, 0, 3, 9, 0);
-insert into start values
-                    (2,
-                    5, 1, 7, 6, 0, 0, 0, 3, 4,
-                    2, 8, 9, 0, 0, 4, 0, 0, 0,
-                    3, 4, 6, 2, 0, 5, 0, 9, 0,
-                    6, 0, 2, 0, 0, 0, 0, 1, 0,
-                    0, 3, 8, 0, 0, 6, 0, 4, 7,
-                    0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 9, 0, 0, 0, 0, 0, 7, 8,
-                    7, 0, 3, 4, 0, 0, 5, 6, 0,
-                    0, 0, 0, 0, 0, 0, 0, 0, 0);
-insert into start values
-                    (3,
-                    8, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 3, 6, 0, 0, 0, 0, 0,
-                    0, 7, 0, 0, 9, 0, 2, 0, 0,
-                    0, 5, 0, 0, 0, 7, 0, 0, 0,
-                    0, 0, 0, 0, 4, 5, 7, 0, 0,
-                    0, 0, 0, 1, 0, 0, 0, 3, 0,
-                    0, 0, 1, 0, 0, 0, 0, 6, 8,
-                    0, 0, 8, 5, 0, 0, 0, 1, 0,
-                    0, 9, 0, 0, 0, 0, 4, 0, 0);
 create table solved
                    (gno int,
 				   col0 int,col1 int,col2 int,col3 int,col4 int,col5 int,col6 int,col7 int,col8 int,
@@ -58,6 +25,17 @@ create table solved
                    col57 int,col58 int,col59 int,col60 int,col61 int,col62 int,col63 int,col64 int,
                    col65 int,col66 int,col67 int,col68 int,col69 int,col70 int,col71 int,col72 int,
                    col73 int,col74 int,col75 int,col76 int,col77 int,col78 int,col79 int,col80 int);
+insert into start values
+					(1,
+					0, 7, 5, 0, 9, 0, 0, 0, 6,
+					0, 2, 3, 0, 8, 0, 0, 4, 0,
+					8, 0, 0, 0, 0, 3, 0, 0, 1,
+					5, 0, 0, 7, 0, 2, 0, 0, 0,
+					0, 4, 0, 8, 0, 6, 0, 2, 0,
+					0, 0, 0, 9, 0, 1, 0, 0, 3,
+					9, 0, 0, 4, 0, 0, 0, 0, 7,
+					0, 6, 0, 0, 7, 0, 5, 8, 0,
+					7, 0, 0, 0, 1, 0, 3, 9, 0);
 insert into solved values
 					(1,
 					1, 7, 5, 2, 9, 4, 8, 3, 6,
@@ -69,6 +47,17 @@ insert into solved values
 					9, 3, 8, 4, 2, 5, 6, 1, 7,
 					4, 6, 1, 3, 7, 9, 5, 8, 2,
 					7, 5, 2, 6, 1, 8, 3, 9, 4);
+insert into start values
+                    (2,
+                    5, 1, 7, 6, 0, 0, 0, 3, 4,
+                    2, 8, 9, 0, 0, 4, 0, 0, 0,
+                    3, 4, 6, 2, 0, 5, 0, 9, 0,
+                    6, 0, 2, 0, 0, 0, 0, 1, 0,
+                    0, 3, 8, 0, 0, 6, 0, 4, 7,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 9, 0, 0, 0, 0, 0, 7, 8,
+                    7, 0, 3, 4, 0, 0, 5, 6, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0);
 insert into solved values
                     (2,
                     5, 1, 7, 6, 9, 8, 2, 3, 4,
@@ -80,6 +69,17 @@ insert into solved values
                     4, 9, 5, 3, 6, 2, 1, 7, 8,
                     7, 2, 3, 4, 8, 1, 5, 6, 9,
                     8, 6, 1, 9, 5, 7, 4, 2, 3);
+insert into start values
+                    (3,
+                    8, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 3, 6, 0, 0, 0, 0, 0,
+                    0, 7, 0, 0, 9, 0, 2, 0, 0,
+                    0, 5, 0, 0, 0, 7, 0, 0, 0,
+                    0, 0, 0, 0, 4, 5, 7, 0, 0,
+                    0, 0, 0, 1, 0, 0, 0, 3, 0,
+                    0, 0, 1, 0, 0, 0, 0, 6, 8,
+                    0, 0, 8, 5, 0, 0, 0, 1, 0,
+                    0, 9, 0, 0, 0, 0, 4, 0, 0);
 insert into solved values
                     (3,
                     8, 1, 2, 7, 5, 3, 6, 4, 9,
