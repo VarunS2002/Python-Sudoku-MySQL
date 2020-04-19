@@ -7,9 +7,9 @@ import mysql.connector as sql
 
 # Default Connection Properties
 
-localhost = "localhost"
+host = "localhost"
 username = "root"
-password = ""
+password = "varun"
 
 # Manual Connection Properties
 
@@ -31,7 +31,7 @@ else:
 
 try:
     my_db = sql.connect(
-        host=f"{localhost}",
+        host=f"{host}",
         user=f"{username}",
         passwd=f"{password}"
     )
