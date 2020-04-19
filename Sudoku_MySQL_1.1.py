@@ -19,7 +19,7 @@ if config_exists:
     read_save = config.read()
     list_items = read_save.split("\n")
     if len(list_items[3]) != 0:
-        localhost = list_items[3]
+        host = list_items[3]
     if len(list_items[5]) != 0:
         username = list_items[5]
     if len(list_items[7]) != 0:
