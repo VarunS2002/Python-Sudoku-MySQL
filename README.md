@@ -15,13 +15,12 @@ Usage:
 -The main part of the config file should look like this:
 
 
-host:
-\n
-localhost
-username:
-root
-password:
-testpass
+host:<br />
+localhost<br />
+username:<br />
+root<br />
+password:<br />
+testpass<br />
 
 
 -localhost, root and testpass are the custom values for host, username and password respectively
