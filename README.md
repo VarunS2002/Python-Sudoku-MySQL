@@ -14,14 +14,14 @@ Usage:
 
 -The main part of the config file should look like this:
 
-##
+#
 host:
 localhost
 username:
 root
 password:
 testpass
-##
+#
 
 -localhost, root and testpass are the custom values for host, username and password respectively
 
