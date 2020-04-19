@@ -15,7 +15,8 @@ Usage:
 -The main part of the config file should look like this:
 
 
-host:\n
+host:
+\n
 localhost
 username:
 root
