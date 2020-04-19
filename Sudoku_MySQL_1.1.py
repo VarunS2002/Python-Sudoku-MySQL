@@ -9,7 +9,7 @@ import mysql.connector as sql
 
 host = "localhost"
 username = "root"
-password = "varun"
+password = ""
 
 # Manual Connection Properties
 
