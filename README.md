@@ -8,7 +8,24 @@ Usage:
 
 -Run the query sql script atleast once before running the sudoku program 
 
--Enter the properties for MySQL connection and press Connect
+-Default values of host, username and password for connecting to MySQL are localhost, root and *no password* respectively
+
+-To change these values place the mysql_config.txt file in the same folder as the sudoku program
+
+-The main part of the config file should look like this:
+
+##
+host:
+localhost
+username:
+root
+password:
+testpass
+##
+
+-localhost, root and testpass are the custom values for host, username and password respectively
+
+-If any of these lines are left empty the program will use the default values for the particular field
 
 Note:
 
