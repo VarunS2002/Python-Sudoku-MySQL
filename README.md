@@ -35,7 +35,10 @@ Note:
 
 -You can use the insert games tool provided to do that
 
--Increase the value of the gno column by 1 everytime you add a new game manually
+-Insert Games tool:
+[Downloads](https://github.com/VarunS2002/Python-Sudoku-MySQL-InsertGames/releases)
+
+-Increase the value of the gno column by 1 everytime you add a new game without the tool
 
 -No code changes have to be made in the main program after adding new games 
 
