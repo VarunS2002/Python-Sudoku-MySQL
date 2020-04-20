@@ -28,7 +28,7 @@ testpass<br />
 -If any of these lines are left empty the program will use the default values for the particular field
 
 
-### Note:
+## Note:
 
 -The query sql script has 3 games defined by default which are soft coded in the Sudoku program
 
@@ -45,7 +45,7 @@ testpass<br />
 
 -Adding incorrect values, rows or columns in the database may cause the program to not function correctly and result in errors 
 
-### Features:
+## Features:
 
 -Input numbers in the grid by repeatedly clicking a box
 
