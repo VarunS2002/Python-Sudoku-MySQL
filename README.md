@@ -4,7 +4,7 @@
 
 This is a fully fledged sudoku game written in Python using Tkinter GUI and uses MySQL database for data
 
-### Usage:
+## Usage:
 
 -Run the query sql script atleast once before running the sudoku program 
 
