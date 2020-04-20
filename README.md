@@ -27,6 +27,7 @@ testpass<br />
 
 -If any of these lines are left empty the program will use the default values for the particular field
 
+
 Note:
 
 -The query sql script has 3 games defined by default which are soft coded in the Sudoku program
@@ -43,3 +44,25 @@ Note:
 -No code changes have to be made in the main program after adding new games 
 
 -Adding incorrect values, rows or columns in the database may cause the program to not function correctly and result in errors 
+
+Features:
+
+-Input numbers in the grid by repeatedly clicking a box
+
+-3 different games
+
+-Randomly chooses one game on start
+
+-Shows you the game currently active
+
+-Added Choose Game option to manually change the game
+
+-Restart Game option
+
+-Check Result option
+
+-Show Solution option
+
+-About option with version, link for releases and for sources
+
+-PEP 8 format
