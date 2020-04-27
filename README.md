@@ -6,7 +6,7 @@ This is a fully fledged sudoku game written in Python using Tkinter GUI and uses
 
 ## Usage:
 
--Run the query sql script atleast once before running the sudoku program 
+-Run the query sql script at least once before running the sudoku program 
 
 -Default values of host, username and password for connecting to MySQL are localhost, root and *no password* respectively
 
@@ -39,7 +39,7 @@ testpass<br />
 -Insert Games tool:
 [Downloads](https://github.com/VarunS2002/Python-Sudoku-MySQL-Insert_Games/releases)
 
--Increase the value of the gno column by 1 everytime you add a new game without the tool
+-Increase the value of the gno column by 1 every time you add a new game without the tool
 
 -No code changes have to be made in the main program after adding new games 
 
