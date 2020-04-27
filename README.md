@@ -66,3 +66,5 @@ testpass<br />
 -About option with version, link for releases and for sources
 
 -PEP 8 format
+
+-Comments to easily understand code
