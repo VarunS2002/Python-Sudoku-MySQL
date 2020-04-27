@@ -67,4 +67,6 @@ testpass<br />
 
 -PEP 8 format
 
+-Object Oriented
+
 -Comments to easily understand code
