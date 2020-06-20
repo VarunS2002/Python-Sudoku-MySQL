@@ -1,4 +1,4 @@
-# Python-Sudoku-MySQL
+# Python Sudoku-MySQL
 
 ### [Downloads](https://github.com/VarunS2002/Python-Sudoku-MySQL/releases)
 
